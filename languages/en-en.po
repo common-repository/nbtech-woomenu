@@ -1,0 +1,188 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NBTech Woomenu v.1.1\n"
+"POT-Creation-Date: 2022-04-21 13:55+1200\n"
+"PO-Revision-Date: 2022-04-21 14:07+1200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: nbtech-woomenu-main.php:23
+msgid "Описание"
+msgstr "Description"
+
+#: nbtech-woomenu-main.php:26
+msgid "Меню категорий и подкатегорий товаров для Woocommerce."
+msgstr "Category menu for Woocommerce."
+
+#: nbtech-woomenu-main.php:29
+msgid "Особенности:"
+msgstr "Features:"
+
+#: nbtech-woomenu-main.php:31
+msgid ""
+"Формируется динамически из категорий, которые добавлены в раздел \"Категории"
+"\" товаров Woocommmerce"
+msgstr "Dynamically made menu with your Woocommerce categories"
+
+#: nbtech-woomenu-main.php:32
+msgid ""
+"Для подкатегорий автоматически добавляются изображения, установленные в "
+"панели администрирования"
+msgstr "Images for categories from admin page"
+
+#: nbtech-woomenu-main.php:33
+msgid "Адаптивность"
+msgstr "Mobile friendly"
+
+#: nbtech-woomenu-main.php:34
+msgid "Минимум запросов к базе данных и серверу"
+msgstr "Just a few requests to the database"
+
+#: nbtech-woomenu-main.php:35
+msgid "Поддержка переводов. В данный момент переведён только на Английский."
+msgstr "Translation ready."
+
+#: nbtech-woomenu-main.php:39
+msgid ""
+"Настройка дизайна в данной версии производится через редактирование файла "
+"стилей и код самого плагина. Настройки задаются с помощью параметров "
+"шорткода, описание которых ниже."
+msgstr ""
+"For that moment you can change menu design through additional css. You can "
+"tune plugin results with some parameters of the shortcode."
+
+#: nbtech-woomenu-main.php:42
+msgid "Разработчик"
+msgstr "Developer"
+
+#: nbtech-woomenu-main.php:42
+msgid "Никита Батищев, НБТэк"
+msgstr "Nikita Batischev, NBTech"
+
+#: nbtech-woomenu-main.php:42
+msgid "Контакты:"
+msgstr "Contacts:"
+
+#: nbtech-woomenu-main.php:42
+msgid "или"
+msgstr "or"
+
+#: nbtech-woomenu-main.php:42
+msgid "Поддержать автора:"
+msgstr "Donate:"
+
+#: nbtech-woomenu-main.php:42
+msgid "можно тут"
+msgstr "click here"
+
+#: nbtech-woomenu-main.php:46
+msgid "Шорткод"
+msgstr "Shortcode"
+
+#: nbtech-woomenu-main.php:49
+msgid "Шорткод для вставки:"
+msgstr "Shortcode for your theme:"
+
+#: nbtech-woomenu-main.php:53
+msgid "Параметры шорткода"
+msgstr "Shortcode paramaters"
+
+#: nbtech-woomenu-main.php:56
+msgid ""
+"Параметры можно добавлять внутрь шорткода, чтобы так или иначе изменять его "
+"работу."
+msgstr "You can add parameters inside shortcode to tune its results."
+
+#: nbtech-woomenu-main.php:56
+msgid " Пример:"
+msgstr " Example:"
+
+#: nbtech-woomenu-main.php:59
+msgid "отображение картинок у родительских категорий"
+msgstr "show parent category image"
+
+#: nbtech-woomenu-main.php:60
+msgid "отображение картинок у дочерних категорий"
+msgstr "show child category image"
+
+#: nbtech-woomenu-main.php:61
+msgid ""
+"отображение опционального раздела с брендами. Раздел неуниверсален, потому, "
+"вероятно, потребует доработки под каждый сайт."
+msgstr "show optional brand menu. Beta feature."
+
+#: nbtech-woomenu-main.php:62
+msgid " и так далее - сортировка родительских категорий по определенному полю"
+msgstr " etc - sort parent categories by this field"
+
+#: nbtech-woomenu-main.php:63
+msgid " и так далее - сортировка дочерних категорий по определенному полю"
+msgstr " etc - sort child categories by this field"
+
+#: nbtech-woomenu-main.php:66
+msgid "скрытие пустых категорий"
+msgstr "hide empty categories"
+
+#: nbtech-woomenu-main.php:67
+msgid ""
+"\"полная ссылка на картинку\" (картинка-заглушка, когда у категории нет "
+"картинки"
+msgstr ""
+"\"absolute link to placeholder image\" (placeholder for categories without "
+"image"
+
+#: nbtech-woomenu-main.php:68
+msgid ""
+"\"Категории товаров =\" (Подпись кнопки раскрытия меню для мобильной версии"
+msgstr "\"Categories =\" (Lable for mobile menu"
+
+#: nbtech-woomenu-main.php:69
+msgid ""
+"Список ID категорий, которые надо оставить. Если пусто, то все категории "
+"отображаются. Дочерние категории отображаются только для отображающихся "
+"родительских!"
+msgstr "IDs of categories to show. If empty - all categories will be shown!"
+
+#: nbtech-woomenu-main.php:70
+msgid ""
+"Список ID категорий, которые надо убрать. Если пусто, то все категории "
+"отображаются. Дочерние категории отображаются только для отображающихся "
+"родительских!"
+msgstr "IDs of categories to hide. If empty - all categories will be shown!"
+
+#: nbtech-woomenu-main.php:71
+msgid ""
+"Бета. Если вы включили show_brands, то эта опция будет отвечать и за поиск "
+"брендов, и за ссылки на них"
+msgstr ""
+"Beta feature! If you set show_brands to 1 (true), this option will define "
+"slug for brands and links to brand pages"
+
+#: nbtech-woomenu.php:25
+msgid "NBTech - Настройки Woomenu"
+msgstr "NBTech - Woomenu settings and information"
+
+#: nbtech-woomenu.php:50
+msgid "Больше информации"
+msgstr "More information"
+
+#: nbtech-woomenu.php:85
+msgid "Категории товаров ="
+msgstr "Categories ="
+
+#: nbtech-woomenu.php:154
+msgid "Бренды"
+msgstr "Brands"
+
+#: nbtech-woomenu.php:163
+msgid "Woocommerce не активирован!"
+msgstr "Woocommerce isn't active!"

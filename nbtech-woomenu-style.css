@@ -1,0 +1,186 @@
+/* BEGIN - nbtech woocommerce category menu */
+
+.nbtech-woomenu-error{
+	width: 100%;
+	background-color: #ff6600;
+	color: #000;
+	padding: 4px;
+	text-align: center;
+}
+
+.nbtech-woomenu{
+	overflow: hidden;
+	background-color: #fff;
+	margin-bottom: 40px;
+	z-index: 99;
+}
+
+.nbtech-woomenuparent{
+	float: left;
+	overflow: hidden;
+	z-index: 99;	
+}
+
+.nbtech-woomenuparent .nbtech-woomenu-parentbtn{
+	font-size: 15px;
+	border: none;
+	outline: none;
+	color: #373532;
+	padding: 8px 20px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+	min-height: 30px;
+	line-height: 30px;
+	position: relative;
+	white-space: nowrap;
+}
+
+.nbtech-woomenuparent .nbtech-woomenu-parentbtn:after {
+	content: url(images/nbtech-woomenu-dropdown.png);
+	width: 8px; 
+    height: 8px;
+	position: absolute;
+	opacity: 1;
+	right: 6px;
+}
+
+.nbtech-woomenu a{
+	background-repeat: no-repeat;
+	background-size: 34px;
+	background-position: 8px center;
+	display: block;
+	min-height: 40px;
+	width: 100%;
+	float: left;
+	font-size: 16px;
+	line-height: 40px;
+	color: #fff !important;
+	text-align: left;
+	padding: 4px 16px;
+	padding-left: 54px;
+	text-decoration: none;
+}
+
+ .nbtech-woomenuparent:hover .nbtech-woomenu-parentbtn{
+  	background-color: #323537 !important;
+	color: #fff !important;
+}
+
+
+.nbtech-woomenusub{
+	display: none;
+	position: absolute;
+	left: 0;
+	background-color: #323537;
+	width: 100%;
+	z-index: 10;
+	padding: 8px 16px;
+	grid-template-columns: repeat(auto-fit, minmax(150px, 350px));
+	grid-gap: 16px;
+}
+
+.nbtech-woomenusub-item{
+	
+}
+
+.nbtech-woomenusub a{
+	float: left;
+	color: #fff;
+	text-decoration: none;
+}
+
+.nbtech-woomenusub a:hover{
+	background-color: #fff;
+	color: #323537 !important;
+}
+
+@media screen and (min-width: 1024px){
+	.nbtech-woomenu{
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 2px;
+	}
+	.nbtech-woomenusub{
+		display: none !important;
+	}
+	.nbtech-woomenuparent:hover .nbtech-woomenusub{
+		display: grid !important;
+	}
+}
+.nbtech-woomenu-mobiletitle{
+	display: none;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid #323537;
+	padding: 4px 8px;
+}
+
+.nbtech-woomenu-mobiletitle:hover, .nbtech-woomenu-mobiletitle-active{
+	background-color: #323537;
+	color: #fff;
+}
+
+@media screen and (max-width: 1024px){
+	.nbtech-woomenu{
+		height: unset !important;
+	}
+	.nbtech-woomenu-mobiletitle{
+		display: block;
+	}
+  	.nbtech-woomenuparent .nbtech-woomenu-parentbtn {
+		font-size: 18px;
+    	display: none;
+  	}
+	.nbtech-woomenuparent:hover .nbtech-woomenusub{
+		grid-template-columns: 1fr;
+		grid-gap: 16px;
+	}
+	.nbtech-woomenuparent .nbtech-woomenu-parentbtn:after{
+		filter: brightness(4);
+		right: 16px;
+	}
+	.nbtech-woomenu.responsive{
+		position: relative;
+	}
+  	.nbtech-woomenu.responsive a{
+		float: none;
+		display: block;
+		text-align: left;
+		width: 100%;
+  	}
+  	.nbtech-woomenu.responsive .nbtech-woomenuparent{
+	  	float: none;
+	}
+  	.nbtech-woomenu.responsive .nbtech-woomenusub{
+		position: relative;
+	}
+  	.nbtech-woomenu.responsive .nbtech-woomenuparent .nbtech-woomenu-parentbtn{
+		display: block;
+		width: 100%;
+		text-align: left;
+  	}
+	.nbtech-woomenuparent, .nbtech-woomenuparent button{
+		background-color: #323537;
+		color: #fff !important;
+	}
+	.nbtech-woomenuparent:hover, .nbtech-woomenuparent button:hover{
+		background-color: #ccc !important;
+	}
+	.nbtech-woomenusub{
+		background-color: #fff;
+		color: #323537 ;
+		border: 1px solid #323537;
+	}
+	.nbtech-woomenusub a{
+		color: #323537 !important;
+	}
+	.nbtech-woomenusub a:hover{
+		background-color: #323537;
+		color: #fff !important;
+	}
+}
+
+/* END - nbtech woocommerce category menu */
